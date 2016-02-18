@@ -1,0 +1,14 @@
+<div>Enter name in box:</div>
+<input type=text ng-model=boxname />
+
+<h1>Hello {{ name + '. How are you?' }}</h1>
+<h2>You entered: {{ boxNameToLower() }}</h2>
+
+<div class="progress">
+
+    <div class="progress-bar" role="progressbar" aria-valuenow="{{ procent }}" 
+         aria-valuemin="0" aria-valuemax="100" style="width: {{ procent }}%;" >
+        {{ procent }}%
+    </div>
+
+</div>

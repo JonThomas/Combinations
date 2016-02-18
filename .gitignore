@@ -1,0 +1,6 @@
+# Comment in my .gitignore
+
+# Ignoring everything in node_modules folder
+/node_modules
+
+/vendor/.DS_Store

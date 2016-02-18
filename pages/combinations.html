@@ -1,0 +1,16 @@
+<div>{{ heading }}</div>
+<div>{{ subHeadning }}</div>
+<br>
+<div>
+    <span ng-repeat="combination in combinations">{{combination.value}}</span>
+</div>
+<h1>{{ numCombinations }}</h1>
+
+<div ng-init="checked=true">
+  <label>
+    <input type="checkbox" ng-model="checked" style="float:left; margin-right:10px;"> Is Visible...
+  </label>
+  <div class="check-element sample-show-hide" ng-show="checked" style="clear:both;">
+    Visible...
+  </div>
+</div>

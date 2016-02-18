@@ -1,0 +1,15 @@
+{
+    "es6": true,
+    "fonts.fontSize": "16px",
+    "fonts.fontFamily": "'SourceCodePro-Medium', ＭＳ ゴシック, 'MS Gothic', monospace",
+    "healthData.healthDataTracking": false,
+    "debug.showErrorsInStatusBar": true,
+    "linting.prefer": ["ESLint", "JSLint"],
+    "linting.collapsed": false,
+    "useTabChar": false,
+    "jslint.options": {
+        "es6": true,
+        "white": false,
+        "vars": true
+    }
+}
